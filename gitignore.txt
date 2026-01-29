@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/HAM10000_images_part_1/
+data/raw/HAM10000_images_part_2/
+data/raw/*.csv
+*.zip
+*.tar.gz
+
+# Models (keep only structure)
+models/versions/*.h5
+models/versions/*.json
+models/plots/*.png
+models/*.h5
+models/*.keras
+!models/best_hparams.json
+
+# Uploads
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Environment
+.env
+.env.local
